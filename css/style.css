@@ -44,7 +44,7 @@ color: red;
 }
 
 figure {
-max-width: 81.5%;
+max-width: fit-content;
 border: solid #D76F30;
 background-color: #D76F30;
 color: black;
