@@ -5,25 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Basics - Exercise 1</title>
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<main>
-    <header>
+<body>
+    <header id="main-header">
         <p id="Venäjän hyökkäys"><strong>Venäjän hyökkäys</strong></p>
         <h1 class="h1special"><u>Tutkimus: Tuki Putinin hyökkäyssodalle hiipuu Venäjällä</u></h1>
         <p>Tuoreen tutkimuksen mukaan hyökkäyssodan vastustajia on Venäjällä nyt ensi kertaa tukijoita enemmän.</p>
     </header>
 
-    <nav>
+    <nav id="main-nav">
         <ul class="top-menu">
-            <li>Yle</li>
-            <li>Etusivu</li>
-            <li>Vaalikone</li>
-            <li><a href="#Venäjän hyökkäys">Venäjän hyökkäys</a></li>
-            <li>UMK24</li>
+            <li><a href="../Tasks/index.html" target="_blank">Home</a></li>
+            <li><a href="../Tasks/exercises/exercise1.html" target="_blank">Exercise 1</a></li>
+            <li><a href="../Tasks/exercises/exercise2.html" target="_blank">Exercise 2</a></li>
+            <li>Exercise 3</li>
+            <li><a href="../Tasks/exercises/exercise4.html" target="_blank">Exercise 4</a></li>
+            <li><a href="../Tasks/exercises/exercise5.html" target="_blank">Exercise 5</a></li>
+            <li>Exercise 6</li>
         </ul>
-    </nav>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </nav>
     <figure>
         <img src="../images/39-1205204655ef17f80627.webp" alt="image 1" title="Putin">
         <figcaption><i>Venäjän presidentti Vladimir Putin osallistui G20-maiden videokokoukseen marraskuussa 2023. Kuva: Mihail Klimentjev / Presidentin tiedotustoimisto / EPA</i></figcaption>
@@ -57,7 +63,7 @@
 
     <a href="../images/devenvironment.png" download>Download File</a>
 
-    <footer>
+    <footer id="main-footer">
         <address>
             <p>ammattikorkeakoulu HAMK PL 230 13101 Hämeenlinna</p>
             Address: Siilitie 14<br>
@@ -66,6 +72,6 @@
         </address>
     </footer>
 
-</main>
+</body>
 
 </html>

@@ -43,6 +43,11 @@ color: #e60000;
 color: #ff6666;
 }
 
+.d-flex {
+    text-align: center;
+    margin: 1em;
+}
+
 .content-article {
 background-color: #faedcd;
 border: 1px solid #ddd;
@@ -75,6 +80,13 @@ color: #e60000;
 #sidebar a:hover {
 color: #ff6666;
 }
+
+figure {
+max-width: fit-content;
+border: solid #e9edc9;
+background-color: #e9edc9;
+color: black;
+    }
 
 #main-footer {
 background-color: #ccd5ae;

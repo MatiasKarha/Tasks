@@ -11,6 +11,22 @@
         <h1>Flex Box Examples</h1>
     </header>
 
+    <nav id="main-nav">
+        <ul class="top-menu">
+            <li><a href="../Tasks/index.html" target="_blank">Home</a></li>
+            <li><a href="../Tasks/exercises/exercise1.html" target="_blank">Exercise 1</a></li>
+            <li><a href="../Tasks/exercises/exercise2.html" target="_blank">Exercise 2</a></li>
+            <li>Exercise 3</li>
+            <li><a href="../Tasks/exercises/exercise4.html" target="_blank">Exercise 4</a></li>
+            <li><a href="../Tasks/exercises/exercise5.html" target="_blank">Exercise 5</a></li>
+            <li>Exercise 6</li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </nav>
+
     <main>
         <aside>
             <ul>
@@ -39,6 +55,58 @@
     </section>
     </main>
 
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Alice</td>
+            <td>Johnson</td>
+            <td>@alice</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Charlie</td>
+            <td>Brown</td>
+            <td>@charlie</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <form method="post" action="process.php">
+        name: <input type="text" name="name"><br>
+        email ID: <input type="email" name="email"><br>
+        DOB: <input type="date" name="DOB"><br>
+        Message: <input type="text" name="Message"><br>
+        <button type="submit">submit</button><br>
+        <button type="reset">reset</button>
+    </form>
+    
     <footer>
         <p>Learning Flex</p>
     </footer>

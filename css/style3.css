@@ -11,6 +11,41 @@ header {
     text-align: center;
 }
 
+#main-header p {
+    font-size: 16px;
+    margin-top: 10px;    
+    }
+    
+    #main-nav {
+    background-color: #e9edc9;
+    padding: 1em;
+    }
+    
+    #main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+    
+    #main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    #main-nav a:visited {
+    color: #e60000;
+    }
+    
+    #main-nav a:hover {
+    color: #ff6666;
+    }
+    
+    .d-flex {
+        text-align: center;
+        margin: 1em;
+    }
+
 main {
    display: flex;  
 }
@@ -38,6 +73,38 @@ section{
 article {
     flex-direction: column;
     background-color: #d4a373;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #3498db;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
 }
 
 footer {
